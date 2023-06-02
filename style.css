@@ -1,0 +1,519 @@
+@import url("./font.css");
+
+*{
+    box-sizing: border-box;
+    font-family: man;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1480px;
+    margin: 0 auto;
+    
+}
+
+.section-main .container .navigation .links li a{
+    color: black;
+    font-size: 18px;
+}
+
+.section-main{
+    width: 100%;
+}
+
+.navigation{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 100px;
+    align-items: center;
+}
+.navigation .links{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navigation .links li a{
+
+    text-decoration: none;
+    display: block;
+  
+    padding: 10px;
+    padding-left: 20px;
+  
+}
+
+.navigation .links li:nth-child(4) a{
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 0px;
+}
+
+.navigation .links li:nth-child(3) a .mimilo{
+   font-size: 25px;
+  
+
+
+   margin-top: 0px;
+}
+
+.rectangle .navigation .links li a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    text-transform: uppercase;
+  
+}
+
+.rectangle .navigation{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.rectangle{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.rectangle .navigation .links{
+    padding-left: 0px;
+}
+
+.section-monohrome .container .blocks{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 AUTO;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.section-monohrome .blocks .block:first-child{
+
+    width: 55%;
+}
+
+.section-monohrome .blocks .block:last-child{
+
+    width: 20%;
+    margin-left: 100px;
+}
+
+
+
+.section-monohrome .blocks .block:first-child p{
+    font-size: 148px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.section-monohrome .blocks .block:last-child p{
+    font-size: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-bottom: 30px;
+    
+}
+
+.section-monohrome .blocks .block:last-child{
+    margin-top: 115px;
+
+}
+
+
+
+.section-monohrome2 .blocks{
+    display: flex;
+    justify-content: space-around;
+    width: 83%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section-monohrome2 .blocks .block p{
+    font-size: 22px;
+}
+
+.section-monohrome2 .title{
+    font-size: 70px;
+  
+   
+    padding-top: 90px;
+    text-align: left;
+    
+    padding-left: 140px;
+}
+
+
+.section-monohrome2 .title p{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+.section-collection{
+    background: url(./assets/img/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+    
+    
+}
+
+.section-collection .titcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    
+
+   
+}
+
+
+.section-collection .titcol p{
+    color:white;
+    text-align: center;
+}
+
+.section-collection .titcol p:first-child{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section-collection .titcol p:nth-child(2){
+    font-size: 22px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.section-collection .titcol .button{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 14%;
+}
+
+.section-collection .titcol .button a{
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.section-new .title{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-new .title p{
+    text-transform: uppercase;
+    font-size: 90px;
+}
+
+.section-new .title p:first-child{
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.section-new .title p:last-child{
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section-new .blocks{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    
+    margin: 0 auto;
+}
+
+
+
+.section-new .blocks .block p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section-green{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-green{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-green{
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+ 
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.img-green{
+    width: 10%;
+}
+
+.text-green{
+    width: 40%;
+}
+
+.form-search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-search form{
+    width: 100%;
+    display: flex;
+   
+}
+
+.size{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-search select{
+   width: 100%;
+   height: 50px;
+   color:  #737576;
+   font-size:16px;
+   text-align: left;
+   padding-left: 10px;
+   border-color: #737576;
+    
+ 
+  
+}
+
+.price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.price input{
+    margin-top: 42px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-right: 90px;
+    text-align: left;
+    border-color:1px solid #737576;
+    font-size: 16px;
+}
+
+.price p:first-child{
+    font-size: 42px;
+}
+
+.exit{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.exit a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.descrip{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.descrip .block{
+    font-size: 19px;
+}
+
+.descrip .block{
+    color:#8b8c8d;
+    border-bottom: 1px solid #8b8c8d;
+    padding-left: 15px;
+}
+
+
+
+.descrip .block:first-child{
+    padding-left: 0px;
+    color:black;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+
+}
+
+.costum{
+    font-weight: 600;
+}
+
+.green{
+    font-size: 52px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cost{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-sms{
+    width: 100%;
+    background-color: black;
+}
+
+.blocks{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.section-sms .blocks .block{
+    color:white;
+    width: 21%;
+}
+
+.section-sms .blocks .block p:nth-child(2){
+    text-transform: uppercase;
+}
+
+
+.info-about{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.text-about{
+    width: 50%;
+}
+
+.section-about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-about p:first-child{
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+.text-about p{
+    font-size: 22px;
+    
+    
+}
+
+.fot{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.fot p{
+    color:white;
+}
+
+footer{
+    background-color: black;
+}
+
+.sociality{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-sub{
+    background-color: black;
+    padding-top: 50px;
+}
+
+.title-sub p{
+    font-size: 70px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    
+}
+
+.title-sub{
+    width: 100%;
+}
+
+.title-sub p:first-child{
+    text-align: left;
+}
+
+.title-sub p:last-child{
+    text-align: center;
+}
+
+.img-sub p{
+    color:white;
+    font-size: 20px;
+}
+
+.img-sub{
+    width: 45%;
+    padding-top: 20px;
+    
+}
+
+.info-sub{
+    width: 80%;
+    margin: 0 auto;
+}
